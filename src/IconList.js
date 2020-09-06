@@ -23,6 +23,7 @@ class IconList extends Component {
     this.state = { icons: ["bone", "cloud"] };
     this.addIcon = this.addIcon.bind(this);
   }
+  /* Not good */
   // addIcon() {
   //   let idx = Math.floor(Math.random() * this.props.options.length);
   //   let newIcon = this.props.options[idx];
